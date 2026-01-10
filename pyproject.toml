@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kryptos"
+version = "0.1.0"
+description = "Georgian cipher CLI tool"
+authors = [{ name = "George" }]
+dependencies = []
+
+[project.scripts]
+kryptos = "geocipher.cli:main"
+
