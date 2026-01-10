@@ -10,5 +10,5 @@ authors = [{ name = "George" }]
 dependencies = []
 
 [project.scripts]
-kryptos = "geocipher.cli:main"
+kryptos = "ciphers.cli:main"
 
