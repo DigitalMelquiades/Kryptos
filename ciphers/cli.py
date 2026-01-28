@@ -119,7 +119,7 @@ def caesarBruteforce(text):
 
 # ================= CLI =================
 
-def kryptos():
+def main():
     parser = argparse.ArgumentParser(
         prog="kryptos",
         description="Georgian cipher command-line tool",
@@ -200,5 +200,5 @@ def kryptos():
 
 
 if __name__ == "__main__":
-    kryptos()
+    main()
 
