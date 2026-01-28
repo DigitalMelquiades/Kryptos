@@ -10,5 +10,5 @@ authors = [{ name = "George" }]
 dependencies = []
 
 [project.scripts]
-kryptos = "ciphers.cli:main"
+kryptos = "ciphers.cli:kryptos"
 
